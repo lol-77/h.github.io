@@ -19,7 +19,6 @@ a{
     top: 0;
     display: flex;
     justify-content: space-between;
-    padding:1% 1%;
     align-items: center;
     background-color: rgba(2, 168, 168, 0.925);
     border:1px solid rgba(255, 255, 255, 0.068)
@@ -88,9 +87,11 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: -180px;}
+    margin-bottom: -100px;}
 .main a img{
-    transition: 0.5s;}
+    transition: 0.5s;
+width: 1300px;
+height: 500px;}
 .main:hover a img{
     transform:scale(1.1);
     opacity: 0.8;
@@ -112,12 +113,12 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    margin-bottom: -180px;
+    margin-bottom: -100px;
    }
 .mai a img{
     transition: 0.5s;
-   width: 1024px;
-   height:514px;
+   width: 1300px;
+   height:500px;
 }
 .mai:hover a img{
     transform:scale(1.1);
@@ -140,13 +141,13 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    margin-bottom: -180px;
+    margin-bottom: -100px;
    }
 .ma a img{
     transition: 0.5s;
    width:100%;
-   width: 1024px;
-   height:514px;
+   width: 1300px;
+   height:500px;
 }
 .ma:hover a img{
     transform:scale(1.1);
@@ -154,7 +155,7 @@ a{
 }
 .ma .mainsp { 
     position: absolute;
-    top: 210%;
+    top: 230%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 4px solid rgb(255, 255, 255);
@@ -267,27 +268,3 @@ footer{
   color: rgb(226, 43, 98);
 }
 
-/* Mobile */
-
-@media (max-width: 767px) {
-}
-
-/* Small Screens */
-
-@media (min-width: 768px) and (max-width: 991px) {
-}
-
-/* Medium Screens */
-
-@media (min-width: 992px) {
-}
-
-/* Large Screens */
-
-@media (min-width: 1200px) {
-}
-
-/* Custom */
-
-@media (max-width: 1199px) {
-}
